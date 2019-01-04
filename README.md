@@ -1,6 +1,6 @@
 # Nudity Detection for CoreML
 
-#TODO:需要比较下准确率（ph1ps的代码里面带坐标转换的输入，和我的nukedetector里面的转换）；个人感觉这里可能无需进行转换是更符合设计意图.
+# TODO:需要比较下准确率（ph1ps的代码里面带坐标转换的输入，和我的nukedetector里面的转换）；个人感觉这里可能无需进行转换是更符合设计意图.
 
 ### Description
 This is the OpenNSFW dataset implemented in Apple's new framework called CoreML. The OpenNSFW dataset can predict images as either SFW (safe for work) or NSFW (not safe for work) from images. The model was built with Caffe and is a **fine-tuned Resnet model**.
